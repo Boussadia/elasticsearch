@@ -1,3 +1,1 @@
 {{ object.title }}
-{{ objects.author.first_name }}
-{{ objects.author.last_name }}

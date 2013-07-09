@@ -3,8 +3,8 @@ from haystack import indexes
 from bookstore.models import Author, Book
 
 class BookIndex(indexes.SearchIndex, indexes.Indexable):
-	text = indexes.CharFiled(document = True, use_template=True)
-	author = indexes.CharFiled(model_attr = 'author')
+	text = indexes.CharField(document = True, use_template=True)
+	author = indexes.CharField(model_attr = 'author')
 
 	def get_model(self):
 		return Book

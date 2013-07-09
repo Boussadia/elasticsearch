@@ -34,4 +34,4 @@ nosetests.xml
 .project
 .pydevproject
 venv
-bookstore # sqlite database
+bookstoredb

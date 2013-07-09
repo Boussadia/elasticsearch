@@ -1,7 +1,6 @@
 # Django settings for elasticsearch project.
 import os
 import django
-import dj_database_url
 
 # calculated paths for django and the site
 # used as starting points for various other paths
